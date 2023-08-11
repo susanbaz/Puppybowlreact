@@ -1,0 +1,38 @@
+.player-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .player {
+    width: 22%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .player h3 {
+    margin-top: 10px;
+  }
+  
+  .player button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .player button:hover {
+    background-color: #0056b3;
+  }
+  
+  
